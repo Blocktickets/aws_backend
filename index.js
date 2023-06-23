@@ -5,4 +5,4 @@ const app = express()
 app.listen(3000, () => console.log("api running on port 3000"))
 
 
-app.get('/', (req, res) => res.json("Hello Prashant. API is running on aws") )
+app.get('/', (req, res) => res.json("Hello Prashant, Paras and Raghav. API is running on aws") )
